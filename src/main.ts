@@ -1,25 +1,12 @@
-// import './slot-machine/slot-machine';
+import './slot-machine/slot-machine.module';
 import './style.css';
 
 // import { setupCounter } from './counter';
 // import typescriptLogo from './typescript.svg';
 
-
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `<main>
 <slot-machine></slot-machine>
-</main>`;
-
-
-
-
-
-
-
-
-
-
-
-
+</main>`
 
 // `
 //   <div>
