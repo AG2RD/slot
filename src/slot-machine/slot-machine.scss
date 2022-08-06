@@ -1,0 +1,9 @@
+.visual-reel-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.visual-reel {
+    max-height: 120px;
+    overflow: hidden;
+}

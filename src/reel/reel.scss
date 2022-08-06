@@ -1,0 +1,32 @@
+.reel-list {
+    padding: 0;
+    width: 100%;
+    // border: solid 2px red;
+}
+
+.reel-item {
+    list-style: none;
+    // border: solid 1px black;
+}
+
+.reel-icon-content {
+    font-size: 100px;
+    line-height: normal;
+}
+
+@-webkit-keyframes slide {
+    0% {
+        transform: translateY(-10%);
+    }
+
+    100% {
+        transform: translateY(-90%);
+    }
+}
+
+.loop {
+    -webkit-animation: slide 1s infinite linear;
+    -moz-animation: slide 1s infinite linear;
+    animation: slide 1s infinite linear;
+    -webkit-filter: blur(0.4px);
+}
