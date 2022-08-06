@@ -9,10 +9,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/prettier": "^2.7.0",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
+    "eslint-config-prettier": "^8.5.0",
     "inversify": "^6.0.1",
     "jest": "^28.1.3",
+    "prettier": "^2.7.1",
     "typescript": "^4.6.4",
     "vite": "^3.0.0"
   },
